@@ -1,0 +1,27 @@
+# Build outputs
+*.json
+!fixtures/**/*.json
+
+# Azure deployment files
+.azure/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets (never commit)
+*.env
+.env.*
+secrets/
+
+# Logs
+*.log
+
+# Test outputs
+test-results/
